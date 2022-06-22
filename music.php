@@ -16,14 +16,13 @@ switch ($request_method) {
       break;
    case 'DELETE':
       $id = intval($_GET["id"]);
-      $mhs->delete_mhs($id);
+      $mhs->delete_data($id);
       break;
    case 'PUT':
       $id = intval($_GET["id"]);
       $mhs->update_data($id);
       // $mhs->test();
       break;
-
    default:
       // Invalid Request Method
       header("HTTP/1.0 405 Method Not Allowed");

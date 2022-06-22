@@ -4,7 +4,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "db_mahasiswa";
+$database = "db_test_dev";
 
 // $host = "sql309.epizy.com";
 // $user = "epiz_31966320";
